@@ -1,9 +1,11 @@
 # Digital Nixie Tube Clock 🕰️
 
-A hyper-realistic, web-based simulation of a vintage IN-14 Nixie Tube clock. This project uses pure HTML, CSS, and Vanilla JavaScript to recreate the warm glow, flickering neon gas, and "cathode poisoning" prevention mechanisms found in physical tube clocks.
+A hyper-realistic, web-based simulation of a vintage IN-12 Nixie Tube clock. This project uses pure HTML, CSS, and Vanilla JavaScript to recreate the warm glow, flickering neon gas, and "cathode poisoning" prevention mechanisms found in physical tube clocks.
 
-![Project Screenshot](path/to/your/screenshot.png)
-*> Replace the above link with a screenshot of your running application.*
+| Digital Nixie Tube Clock |
+|:---:|
+| ![Digital Nixie Tube Clock](https://github.com/joeparadiso/nixie-tube-clock/blob/master/images/ProjectImage.png?raw=true) |
+| *_Image of this Digital Nixie Tube clock project_* |
 
 ## 📖 Table of Contents
 - [About the Project](#about-the-project)
