@@ -40,11 +40,12 @@ body {
   background: radial-gradient(circle at 50% 30%);
   border-radius: 50px;
   border: 1px solid rgba(255, 130, 5, 0.076);
-  box-shadow: inset 0 0 30px rgba(244, 144, 21, 0.239),
+  box-shadow:
+    inset 0 0 30px rgba(244, 144, 21, 0.239),
     0 0 10px rgba(255, 140, 0, 0.3);
   backdrop-filter: blur(2px);
   overflow: hidden;
-  background: url("hexmap3.png") rgb(47, 15, 1);
+  background: url("images/hexmap3.png") rgb(47, 15, 1);
   background-size: 80%;
 }
 
@@ -103,7 +104,10 @@ body {
 .illuminated {
   opacity: 1;
   color: orange;
-  text-shadow: 0 0 10px #ff8c00, 0 0 20px #ff4500, 0 0 30px #ff8c00,
+  text-shadow:
+    0 0 10px #ff8c00,
+    0 0 20px #ff4500,
+    0 0 30px #ff8c00,
     0 0 50px rgba(255, 140, 0, 0.8);
 }
 
@@ -111,7 +115,10 @@ body {
 .separator {
   font-size: 100px;
   color: orange;
-  text-shadow: 0 0 10px #ff8c00, 0 0 20px #ff4500, 0 0 30px #ff8c00,
+  text-shadow:
+    0 0 10px #ff8c00,
+    0 0 20px #ff4500,
+    0 0 30px #ff8c00,
     0 0 50px rgba(255, 140, 0, 0.8);
   animation: flicker 0.9s infinite alternate ease-in-out; /* Make them flicker too */
 }
@@ -130,12 +137,13 @@ body {
   );
   border-radius: 50px;
   border: 2px solid rgba(255, 149, 0, 0.13);
-  box-shadow: inset 0 0 15px rgba(244, 144, 21, 0.247),
+  box-shadow:
+    inset 0 0 15px rgba(244, 144, 21, 0.247),
     0 0 10px rgba(255, 140, 0, 0.482);
   backdrop-filter: blur(2px);
   overflow: hidden;
   padding-bottom: 20px;
-  background: url("hexmap3.png") rgb(47, 15, 1);
+  background: url("images/hexmap3.png") rgb(47, 15, 1);
   background-size: 180%;
 }
 
@@ -174,27 +182,42 @@ body {
 @keyframes flicker {
   0% {
     opacity: 0.97;
-    text-shadow: 0 0 10px #ff8c00, 0 0 20px #ff4500, 0 0 30px #ff8c00,
+    text-shadow:
+      0 0 10px #ff8c00,
+      0 0 20px #ff4500,
+      0 0 30px #ff8c00,
       0 0 50px rgba(255, 140, 0, 0.8);
   }
   25% {
     opacity: 0.92;
-    text-shadow: 0 0 10px #ff8c00, 0 0 20px #ff4500, 0 0 30px #ff8c00,
+    text-shadow:
+      0 0 10px #ff8c00,
+      0 0 20px #ff4500,
+      0 0 30px #ff8c00,
       0 0 50px rgba(255, 140, 0, 0.8);
   }
   50% {
     opacity: 0.98;
-    text-shadow: 0 0 10px #ff8c00, 0 0 20px #ff4500, 0 0 30px #ff8c00,
+    text-shadow:
+      0 0 10px #ff8c00,
+      0 0 20px #ff4500,
+      0 0 30px #ff8c00,
       0 0 50px rgba(255, 140, 0, 0.8);
   }
   75% {
     opacity: 0.95;
-    text-shadow: 0 0 20px #ff8c00, 0 0 30px #ff4500, 0 0 40px #ff8c00,
+    text-shadow:
+      0 0 20px #ff8c00,
+      0 0 30px #ff4500,
+      0 0 40px #ff8c00,
       0 0 50px rgba(255, 140, 0, 0.8);
   }
   100% {
     opacity: 0.92;
-    text-shadow: 0 0 10px #ff8c00, 0 0 20px #ff4500, 0 0 30px #ff8c00,
+    text-shadow:
+      0 0 10px #ff8c00,
+      0 0 20px #ff4500,
+      0 0 30px #ff8c00,
       0 0 50px rgba(255, 140, 0, 0.8);
   }
 }
