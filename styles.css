@@ -6,11 +6,23 @@
 
 @import url("https://fonts.googleapis.com/css2?family=Nixie+One&display=swap");
 
+/* Reset and layout helpers */
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+* { box-sizing: border-box; }
+
 body {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh;
+  min-height: 100vh; /* ensure body fills viewport for vertical centering */
+  width: 100vw;
+  margin: 0;
   background-color: rgb(0, 0, 0);
   /* Background looks like black marble */
   /* background-image: url(https://st3.depositphotos.com/20827338/35867/i/450/depositphotos_358672614-stock-photo-blackboard-dark-chalkboard-horizontal-banner.jpg); */
